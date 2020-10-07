@@ -51,6 +51,6 @@ function myIceCream(y) {
     console.log(y)
 }
 while (num < 1) {
-    console.log(Movies[0])
+    console.log(Movies[num])
     num++
 }
