@@ -8,11 +8,18 @@
 
 // 👇 هنا function عرف الدالة او
 
-
+ function driving(x) {
+     if (x > 18) {
+         console.log(`🚘😍 مبروك سوف تحصل على الليسن`)
+     }else{
+        console.log(` 😢 للاسف عمرك لا يسمح`)
+     }
+     
+ }
 
 // لا تنسى أن تنادي الدالة
-
-
+let number = [Math.floor(Math.random() * 100)+ 1]
+driving(number);
 
 // ------------------------------ 2️⃣ السؤال الثاني ------------------------------
 // 2️⃣ السؤال الثاني
@@ -22,7 +29,11 @@
 
 // 👇 هنا array عرف المصفوفة او
 
+   let iceCream = ["cacao", "Vanilla", "Strawberries"];
 
+   for (const nkha of iceCream) {
+       console.log(nkha)
+   }
 
 
 
@@ -32,3 +43,14 @@
 
 // --------------------------------- 🔥 بونص ------------------------------------
 // while loop اطبع احد المصفوفات بإستخدام
+let num = 0
+let Movies = ["Us", "jamanji", "it"];
+  myIceCream(Movies)
+
+function myIceCream(y) {
+    console.log(y)
+}
+while (num < 1) {
+    console.log(Movies[0])
+    num++
+}
